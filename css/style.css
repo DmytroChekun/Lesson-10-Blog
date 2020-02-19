@@ -3,7 +3,7 @@ body{
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
     background: #b07cf7;
-    height: 965px;
+    height: 865px;
 }
 
 header{
@@ -27,6 +27,7 @@ header p {
     margin: 0 auto;
     margin-top: 25px;
     margin-bottom: 48px;
+    line-height: 25px;
 }
 
 main{
@@ -43,21 +44,20 @@ main{
     display: flexbox;
     width: 370px;
     height: 310px;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 main>div:first-child{
     background-image: url(/images/GreenSmoothie.jpg);
-    background-repeat: no-repeat;
 }
 
 main>div:nth-child(2){
     background-image: url(/images/Cream-Soup.jpg);
-    background-repeat: no-repeat;
 }
 
 main>div:nth-child(3){
     background-image: url(/images/Raspberry.jpg);
-    background-repeat: no-repeat;
 }
 
 div>div{
@@ -85,12 +85,26 @@ div>div>p:nth-child(1){
 div>div>p:nth-child(2){
     font-size: 21px;
 }
-.container>p{
-    position: relative;
+
+.name{
+    position: absolute;
+    left: 20px;
+    bottom: 55px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.author{
+    position: absolute;
     left: 20px;
     bottom: 20px;
-    color: #000;
+    color: #fff;
+    font-weight: 300;
+    font-size: 13px;
 }
+
+
 /* div styles end*/
 
 input{
@@ -101,6 +115,7 @@ input{
     height: 55px;
     border: none;
     font-weight: 300;
+    font-size: 20px;
     color: #fff;
     margin: 0 auto;
     margin-top: 50px;
