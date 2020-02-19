@@ -34,7 +34,7 @@ main{
     width: 1170px;
 }
 
-/* div styles */
+                                                        /* div styles */
 .container{
     display: flexbox;
     width: 370px;
@@ -99,7 +99,7 @@ div>div>p:nth-child(2){font-size:21px;}
     font-size: 13px;
     z-index: 3;
 }
-/* div styles end*/
+                                                    /* div styles end*/
 
 input{
     display: block;
